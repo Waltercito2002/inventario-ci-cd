@@ -149,7 +149,7 @@ npm test -- --run
 
 
 
-Hector Gonzalez Vera
+Hector Gonzalez Vera - Walter Bernardi Correa
 
 Universidad de Guayaquil — 2026
 
