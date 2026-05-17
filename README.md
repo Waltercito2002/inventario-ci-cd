@@ -1,62 +1,49 @@
-\# Inventario CI/CD
+Inventario CI/CD
 
+Proyecto de laboratorio para la asignatura
 
+Gestión y Configuración del Software
 
-Proyecto de laboratorio para la asignatura \*\*Gestión y Configuración del Software\*\*  
-
-Universidad de Guayaquil — Carrera de Ingeniería de Software  
+Universidad de Guayaquil — Carrera de Ingeniería de Software
 
 Año lectivo 2026-2027
-
-
-
-\## Descripción
-
-
+Descripción
 
 Sistema web de inventario desarrollado con Node.js + Express (backend) y React + Vite (frontend), con pipeline completo de CI/CD usando GitHub Actions.
+Tecnologías
 
+-Backend: Node.js, Express, Jest, Supertest
 
+-Frontend: React, Vite, Vitest, Testing Library
 
-\## Tecnologías
-
-
-
-\- \*\*Backend:\*\* Node.js, Express, Jest, Supertest
-
-\- \*\*Frontend:\*\* React, Vite, Vitest, Testing Library
-
-\- \*\*CI/CD:\*\* GitHub Actions
-
-
-
-\## Estructura del proyecto
+-CI/CD: GitHub Actions
+Estructura del proyecto
 
 inventario-ci-cd/
 
 ├── backend/
 
-│   └── src/
+│ └── src/
 
-│       ├── app.js
+│ ├── app.js
 
-│       ├── app.test.js
+│ ├── app.test.js
 
-│       ├── inventoryService.js
+│ ├── inventoryService.js
 
-│       ├── inventoryService.test.js
+│ ├── inventoryService.test.js
 
-│       └── server.js
+│ └── server.js
 
 ├── frontend/
 
-│   └── src/
+│ └── src/
 
-│       ├── App.jsx
+│ ├── App.jsx
 
-│       ├── App.test.jsx
+│ ├── App.test.jsx
 
-│       └── setupTests.js
+│ └── setupTests.js
 
 └── .github/
 
@@ -67,15 +54,8 @@ inventario-ci-cd/
 ├── ci-frontend.yml
 
 └── deploy.yml
-
-
-\## Instalación
-
-
-
-\### Backend
-
-```bash
+Instalación
+Backend
 
 cd backend
 
@@ -83,13 +63,7 @@ npm install
 
 npm start
 
-```
-
-
-
-\### Frontend
-
-```bash
+Frontend
 
 cd frontend
 
@@ -97,41 +71,20 @@ npm install
 
 npm run dev
 
-```
-
-
-
-\## Pruebas
-
-
-
-\### Backend
-
-```bash
+Pruebas
+Backend
 
 cd backend
 
 npm test
 
-```
-
-
-
-\### Frontend
-
-```bash
+Frontend
 
 cd frontend
 
 npm test -- --run
 
-```
-
-
-
-\## Pipeline CI/CD
-
-
+Pipeline CI/CD
 
 | Workflow | Descripción |
 
@@ -142,16 +95,8 @@ npm test -- --run
 | CI Frontend | Ejecuta pruebas Vitest en cada push |
 
 | Deploy (Simulado) | Se activa cuando ambos CI pasan |
-
-
-
-\## Autores
-
-
+Autores
 
 Hector Gonzalez Vera - Walter Bernardi Correa
 
 Universidad de Guayaquil — 2026
-
-
-
